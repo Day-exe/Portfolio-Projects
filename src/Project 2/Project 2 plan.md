@@ -1,6 +1,7 @@
 Basic Idea: Convert recipies into smaller batches
-
 Comissioned by: Ms. Howard
+
+
 
 Larger Scale:
 The user will be able to input all of the ingredients with how much of each is required, then how 
