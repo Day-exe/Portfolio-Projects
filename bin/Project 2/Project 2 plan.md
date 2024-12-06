@@ -10,8 +10,9 @@ converting the units if necessary(?), then return them in a coherent manner.
 
 Checklist:
 - Make necessary methods
-    - A recipe class to store all of the recipes as objects
-        - A new recipe method
-        - A method for dividing all of the quantities that the user inputs and returning them
+    - ~~A recipe class to store all of the recipes as objects~~
+        - ~~A new recipe method (constructor)~~
+        - ~~A method for dividing all of the quantities that the user inputs~~
+        - A method for returning new values in a neat way
     - Possibly methods for converting units?
     - If we have time, maybe make a UI?
