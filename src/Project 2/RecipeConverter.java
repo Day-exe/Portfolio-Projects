@@ -7,25 +7,33 @@ public class RecipeConverter{
 
     //instance variables
     private int numIngredients;
+    private int batchNum;
+    private int batchNumAlt;
     private String ingredients[];
-    private int quant[];
-    private int quantAlt[];
+    private double quant[];
+    private double quantAlt[];
     private String measurements[];
     private String measurementsAlt[];
 
     //constructor
-    public RecipeConverter(int numIngredients, String ingredients[], int quant[], String measurements[]){
+    public RecipeConverter(int numIngredients, int batchNum, String ingredients[], double quant[], String measurements[]){
 
         this.numIngredients = numIngredients;
+        this.batchNum = batchNum;
         this.ingredients = ingredients;
         this.quant = quant;
         this.measurements = measurements;
 
     }
 
-    public void split(double factor){
+    public void reduce(double factor){
 
-        
+        for(int i = 0; i <= numIngredients; i++){
+
+            quantAlt[i] = quant[i]*factor;
+            batchNumAlt = (int)(batchNum*factor);
+
+        }
 
     }
 
