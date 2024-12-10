@@ -8,3 +8,8 @@ n/a
 
 ## Project 2: Recipe Converter
 A project comissioned by my counselor, Ms. Howard. The goal is to make a program that can break recipies down into smaller batches.
+
+
+# About The Author
+All projects written by Day (no, that is not my real name).
+I have been writing programs since around 2020. My first language was C++ which I learned from Michael Reeves' videos, who was my initial inspiration for learning to write code. I later learned how to write in Java at the local community college which is the language that I use now. I am a student of the Information Technology Oracle Academy (ITOA) and am currently in high school (grad year of 2026). I also write, do taekwondo, and enjoy spending time outside. If you want more info, including some contact methods, you can find them on my [Carrd](hhttps://days-desc.carrd.co)
