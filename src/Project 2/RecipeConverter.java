@@ -24,7 +24,7 @@ public class RecipeConverter{
         this.quant = quant;
         this.measurements = measurements;
 
-    }
+    }//end constructor
 
     public void reduce(double factor){
 
@@ -33,16 +33,16 @@ public class RecipeConverter{
             quantAlt[i] = quant[i]*factor;
             batchNumAlt = (int)(batchNum*factor);
 
-        }
+        }//end for
 
         
 
-    }
+    }//end reduce
 
     public static void main(String[] args){
 
 
 
-    }
+    }//end main
 
-}
+}//end class
