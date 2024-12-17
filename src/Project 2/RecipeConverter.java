@@ -31,11 +31,10 @@ public class RecipeConverter{
         for(int i = 0; i <= numIngredients; i++){
 
             quantAlt[i] = quant[i]*factor;
-            batchNumAlt = (int)(batchNum*factor);
 
         }//end for
 
-        
+        batchNumAlt = (int)(batchNum*factor);
 
     }//end reduce
 
