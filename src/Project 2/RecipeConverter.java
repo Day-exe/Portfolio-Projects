@@ -50,6 +50,27 @@ public class RecipeConverter{
 
         System.out.println("\nWill make " + batchNumAlt + " instead of " + batchNum);
 
+        System.out.print("\nProcessing");
+                    try
+                    {Thread.sleep(300);}
+                    catch(InterruptedException ex)
+                    {Thread.currentThread().interrupt();}
+                    
+                    int delay = 0;
+                    int min = numIngredients;
+                    int max = numIngredients+1;
+                    int dots = (int)Math.floor(Math.random()*(max-min+1)+min);
+                    
+                    while (delay < dots)
+                    {
+                        System.out.print(".");
+                        try
+                        {Thread.sleep(1000);}
+                        catch(InterruptedException ex)
+                        {Thread.currentThread().interrupt();}
+                        delay++;
+                    }//end theatrical delay
+
     }//end output
 
     public static void main(String[] args){
@@ -75,7 +96,7 @@ public class RecipeConverter{
                         delay++;
                     }//end theatrical delay
 
-        System.out.println("Recipe Coverter 0.1");
+        System.out.println("\nRecipe Coverter 0.1\n");
         //output current version
         //VERY IMPORTANT. DO NOT FORGET TO UPDATE WHEN PATCHES OR NEW RELEASES ARE MADE. FOLLOW SEMVER SCHEME (MAJOR.MINOR.PATCH)
 
