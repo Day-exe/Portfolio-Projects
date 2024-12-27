@@ -37,19 +37,6 @@ public class RecipeConverter{
 
         batchNumAlt = (int)(batchNum*factor);
 
-    }//end reduce
-
-    //returns the new quantities in an orderly fashion
-    public void output(){
-
-        for(int i = 0; i <= numIngredients; i++){
-
-            System.out.println(ingredients[i] + ": " + quantAlt[i] + " " + measurements[i]);
-
-        }//end for loop
-
-        System.out.println("\nWill make " + batchNumAlt + " instead of " + batchNum);
-
         System.out.print("\nProcessing");
                     try
                     {Thread.sleep(300);}
@@ -70,6 +57,19 @@ public class RecipeConverter{
                         {Thread.currentThread().interrupt();}
                         delay++;
                     }//end theatrical delay
+
+    }//end reduce
+
+    //returns the new quantities in an orderly fashion
+    public void output(){
+
+        for(int i = 0; i <= numIngredients; i++){
+
+            System.out.println(ingredients[i] + ": " + quantAlt[i] + " " + measurements[i]);
+
+        }//end for loop
+
+        System.out.println("\nWill make " + batchNumAlt + " instead of " + batchNum);
 
     }//end output
 
