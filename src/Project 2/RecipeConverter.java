@@ -26,6 +26,7 @@ public class RecipeConverter{
 
     }//end constructor
 
+    //reduces the batch by the specified amount and adds the new values to a seperate list
     public void reduce(double factor){
 
         for(int i = 0; i <= numIngredients; i++){
@@ -38,8 +39,48 @@ public class RecipeConverter{
 
     }//end reduce
 
+    //returns the new quantities in an orderly fashion
+    public void output(){
+
+        for(int i = 0; i <= numIngredients; i++){
+
+            System.out.println(ingredients[i] + ": " + quantAlt[i] + " " + measurements[i]);
+
+        }//end for loop
+
+        System.out.println("\nWill make " + batchNumAlt + " instead of " + batchNum);
+
+    }//end output
+
     public static void main(String[] args){
 
+        System.out.print("\nLOADING");
+                    try
+                    {Thread.sleep(300);}
+                    catch(InterruptedException ex)
+                    {Thread.currentThread().interrupt();}
+                    
+                    int delay = 0;
+                    int min = 3;
+                    int max = 5;
+                    int dots = (int)Math.floor(Math.random()*(max-min+1)+min);
+                    
+                    while (delay < dots)
+                    {
+                        System.out.print(".");
+                        try
+                        {Thread.sleep(1000);}
+                        catch(InterruptedException ex)
+                        {Thread.currentThread().interrupt();}
+                        delay++;
+                    }//end theatrical delay
+
+        System.out.println("Recipe Coverter 0.1");
+        //output current version
+        //VERY IMPORTANT. DO NOT FORGET TO UPDATE WHEN PATCHES OR NEW RELEASES ARE MADE. FOLLOW SEMVER SCHEME (MAJOR.MINOR.PATCH)
+
+        System.out.println("This is a program for breaking down recipies. It does exactly what it sounds like it does.");
+        System.out.println("You can store a total of ten recipies in a single session.");
 
 
     }//end main
