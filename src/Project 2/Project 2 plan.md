@@ -17,4 +17,10 @@ Checklist:
         - ~~A method for dividing all of the quantities that the user inputs~~
         - A method for returning new values in a neat way
     - Possibly methods for converting units?
-    - If we have time, maybe make a UI?
+    - If we have time, maybe make a UI? {NOPE. UIS IN JAVA ARE GROSS}
+
+Additional features added:
+- Persistance (recipies are stored even after session closes)
+- A login feature so that multiple users can have their data saved seperate from one another
+- Archive for old versions
+- A changelog for new versions

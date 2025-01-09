@@ -1,6 +1,6 @@
 import java.util.*; //Import utilities
 
-public class RecipeConverter{
+public class RecipeConverter0_1{
 
     //scanner for user input
     static Scanner myObj = new Scanner(System.in);
