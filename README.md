@@ -1,4 +1,4 @@
-# THIS VERSION IS DEPRICATED. NEW VERSION IS [HERE](https://github.com/Day-exe/PortfolioProjects)
+# ⚠️THIS VERSION IS DEPRICATED. NEW VERSION IS [HERE](https://github.com/Day-exe/PortfolioProjects) ⚠️
 
 # Portfolio-ITOA
 Collection of my portfolio projects for my Internship class in the Oracle ITOA Program
